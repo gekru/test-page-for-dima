@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Idea - Validate Your Product</title>
+    <!-- Tailwind CSS CDN for quick, beautiful styling -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-slate-50 text-slate-800 font-sans antialiased min-h-screen flex flex-col justify-between">
+
+    <!-- Header / Nav -->
+    <header class="max-w-4xl mx-auto w-full p-6 flex justify-between items-center">
+        <span class="font-bold text-xl tracking-tight text-blue-600">🚀 YourBrand</span>
+        <span class="text-xs uppercase tracking-wider bg-blue-100 text-blue-800 px-3 py-1 rounded-full font-semibold">Early Access</span>
+    </header>
+
+    <!-- Main Hero Section -->
+    <main class="max-w-3xl mx-auto px-6 py-12 text-center flex-grow flex flex-col justify-center">
+        <h1 class="text-4xl sm:text-5xl font-extrabold tracking-tight text-slate-900 mb-6">
+           Special for Dima!
+        </h1>
+        <h1 class="text-4xl sm:text-5xl font-extrabold tracking-tight text-slate-900 mb-6">
+            Build something people actually <span class="text-blue-600">want</span>.
+        </h1>
+        <p class="text-lg sm:text-xl text-slate-600 mb-10 max-w-2xl mx-auto">
+            Briefly explain your core value proposition here. Tell visitors how your idea solves their painful problem and why they should care.
+        </p>
+
+        <!-- Signup Form -->
+        <form class="max-w-md mx-auto w-full flex flex-col sm:flex-row gap-3">
+            <input 
+                type="email" 
+                required 
+                placeholder="Enter your email address" 
+                class="flex-grow px-4 py-3 rounded-lg border border-slate-300 focus:outline-none focus:ring-2 focus:ring-blue-600 text-slate-800"
+            >
+            <button 
+                type="submit" 
+                class="bg-blue-600 hover:bg-blue-700 text-white font-semibold px-6 py-3 rounded-lg transition-colors shadow-sm"
+            >
+                Join Waitlist
+            </button>
+        </form>
+
+        <!-- YouTube Redirect Button -->
+        <div class="mt-4">
+            <a 
+                href="https://www.youtube.com/" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                class="inline-flex items-center justify-center gap-2 text-slate-600 hover:text-red-600 font-medium text-sm py-2 px-4 rounded-lg border border-slate-200 hover:border-red-200 bg-white transition-all shadow-xs"
+            >
+                <!-- YouTube Icon SVG -->
+                <svg class="w-5 h-5 text-red-600" fill="currentColor" viewBox="0 0 24 24">
+                    <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
+                </svg>
+                Watch 1-Min Demo on YouTube
+            </a>
+        </div>
+
+        <p class="text-xs text-slate-400 mt-3">No spam ever. Unsubscribe at any time.</p>
+    </main>
+
+    <!-- Footer -->
+    <footer class="max-w-4xl mx-auto w-full p-6 text-center text-sm text-slate-400 border-t border-slate-200">
+        &copy; 2026 Your Brand Name. All rights reserved.
+    </footer>
+
+</body>
+</html>
